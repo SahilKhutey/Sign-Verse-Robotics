@@ -1,0 +1,20 @@
+# PPO Strategy: Production Settings for HRI
+ppo:
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  epsilon_clip: 0.2
+  entropy_beta: 0.01  # Encourages exploration
+  batch_size: 64
+  update_epochs: 10
+  target_kl: 0.015
+
+# Interaction Specifics
+environment:
+  state_dim: 6  # [Intent, Emotion, Engagement, Distance, Priority, Stability]
+  action_dim: 6 # [IDLE, WAVE, GREET, POINT, STOP, FOLLOW]
+  max_episode_steps: 1000
+
+# Metadata
+version: "1.0.0"
+mode: "STOCHASTIC"  # Enable exploration as requested

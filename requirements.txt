@@ -1,0 +1,17 @@
+mediapipe
+opencv-python
+yt-dlp
+fastapi
+uvicorn
+pydantic
+redis
+numpy
+pandas
+matplotlib
+pytest
+scipy
+python-multipart
+# Robotics & 3D Math
+scipy
+pyquaternion
+pyyaml

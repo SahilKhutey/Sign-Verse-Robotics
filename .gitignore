@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Models & Checkpoints (Large Binaries)
+models/
+storage/datasets/
+storage/checkpoints/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dashboard Node Modules
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+
+# Logs
+logs/
+*.log

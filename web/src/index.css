@@ -1,0 +1,10 @@
+/* Base Reset */
+:root {
+  color-scheme: dark;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
