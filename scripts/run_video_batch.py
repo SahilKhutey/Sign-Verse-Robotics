@@ -154,9 +154,10 @@ def main():
     parser = argparse.ArgumentParser(description="Run the Sign-Verse batch workflow on a folder of videos.")
     parser.add_argument("--folder", required=True, help="Absolute path to the folder of videos.")
     parser.add_argument("--chunk-frames", type=int, default=90, help="Recycle the perception stack after this many sampled frames.")
+    parser.add_argument("--sample-fps", type=float, default=None, help="Override sample FPS for all videos.")
     args = parser.parse_args()
 
-    batch_dir = run_batch(args.folder, chunk_frames=args.chunk_frames)
+    batch_dir = run_batch(args.folder, chunk_frames=args.chunk_frames, sample_fps_override=args.sample_fps)
     print(batch_dir)
 
 

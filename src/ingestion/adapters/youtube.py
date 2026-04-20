@@ -184,8 +184,7 @@ class YouTubeAdapter:
         os.makedirs(output_dir, exist_ok=True)
 
         ydl_opts = {
-            "format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
-            "merge_output_format": "mp4",
+            "format": "best[ext=mp4]/best", # Force single-stream to avoid ffmpeg merge dependency
             "quiet": True,
             "noplaylist": True,
             "windowsfilenames": True,
