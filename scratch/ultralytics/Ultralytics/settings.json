@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\User\\Documents\\datasets",
+  "weights_dir": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\weights",
+  "runs_dir": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\runs",
+  "uuid": "620958a885fe3fef4f3b74fa8cd9de3219318b3292b206b4a12d54b2d23ad4d1",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

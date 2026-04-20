@@ -19,6 +19,7 @@ from src.motion.intelligence.multimodal.spatial import SpatialAwarenessEngine
 from src.motion.intelligence.multimodal.balancer import EngagementBalancer
 
 from src.motion.intelligence.multimodal.mmte.engine import MMTEEngine
+from src.motion.intelligence.multimodal.mmte.model import MultiModalTransformer
 from src.motion.intelligence.multimodal.features import FeatureFusion
 from src.motion.intelligence.stability.engine import DecisionStabilityEngine
 import torch

@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from datetime import datetime
 
 class Joint(BaseModel):
@@ -28,18 +28,19 @@ class HumanSubject(BaseModel):
     face: Optional[FaceLandmarks] = None
     left_hand: Optional[HandLandmarks] = None
     right_hand: Optional[HandLandmarks] = None
+    tracking: Dict[str, Any] = Field(default_factory=dict)
 
 class FrameData(BaseModel):
     frame_index: int
     timestamp: float
-    subjects: List[HumanSubject] = []
-    detected_objects: Optional[List[Dict]] = []
+    subjects: List[HumanSubject] = Field(default_factory=list)
+    detected_objects: Optional[List[Dict]] = Field(default_factory=list)
 
 class MotionSequence(BaseModel):
     sequence_id: str
     source_uri: str
     fps: float
-    metadata: Dict = {}
+    metadata: Dict = Field(default_factory=dict)
     frames: List[FrameData]
     created_at: datetime = Field(default_factory=datetime.now)
 

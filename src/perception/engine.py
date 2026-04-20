@@ -108,7 +108,15 @@ if __name__ == "__main__":
         if not ret:
             break
             
-        data = engine.process_frame(frame, 0, 0.0)
+        # Wrap raw frame in StructuredFrame for the engine
+        from src.ingestion.structured_frame import StructuredFrame
+        sf = StructuredFrame(
+            frame=frame,
+            timestamp=time.time(),
+            sequence_index=0,
+            source_id="webcam"
+        )
+        data = engine.process_frame(sf)
         if data.pose:
             print(f"Pose detected: {len(data.pose.skeleton)} joints")
             

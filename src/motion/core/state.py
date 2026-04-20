@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import numpy as np
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 
 @dataclass
 class MotionState:
@@ -32,6 +32,9 @@ class MotionState:
     # State uncertainty (Noise Covariance from Kalman Filter)
     covariance: Optional[np.ndarray] = None
 
+    # Auxiliary tracking/debug payload
+    metadata: Optional[Dict[str, Any]] = None
+
     def serialize(self):
         """Helper to convert numpy arrays for JSON transmission."""
         return {
@@ -40,5 +43,6 @@ class MotionState:
             "velocity": self.velocity.tolist(),
             "joints": self.joints.tolist() if self.joints is not None else None,
             "confidence": self.confidence,
-            "source_id": self.source_id
+            "source_id": self.source_id,
+            "metadata": self.metadata or {}
         }

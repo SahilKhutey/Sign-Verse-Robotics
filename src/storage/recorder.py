@@ -30,7 +30,7 @@ class DatasetRecorder:
 
     def start_session(self, session_name: str, fps: float = 30.0, resolution: tuple = (640, 640)):
         """Initializes a new recording session."""
-        self.session_id = f"{session_name}_{int(time.time())}"
+        self.session_id = session_name
         self.session_path = os.path.join(self.base_path, self.session_id)
         
         # Create structure
@@ -71,6 +71,13 @@ class DatasetRecorder:
         # 2. Add to H.264 Video Stream
         if self.video_writer:
             self.video_writer.write(packet.frame_normalized)
+            
+        # 2b. Generate Session Thumbnail (First frame only)
+        thumbnail_path = os.path.join(self.session_path, "thumbnail.jpg")
+        if not os.path.exists(thumbnail_path):
+            # Save a half-resolution thumbnail for fast loading
+            thumb = cv2.resize(packet.frame_normalized, (320, 320))
+            cv2.imwrite(thumbnail_path, thumb)
             
         # 3. Write Metadata
         meta_entry = {

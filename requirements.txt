@@ -1,5 +1,6 @@
 mediapipe
 opencv-python
+ultralytics
 yt-dlp
 fastapi
 uvicorn
@@ -15,3 +16,4 @@ python-multipart
 scipy
 pyquaternion
 pyyaml
+websockets

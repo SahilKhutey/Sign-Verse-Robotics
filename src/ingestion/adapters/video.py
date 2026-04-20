@@ -1,6 +1,7 @@
 import cv2
 import time
 import threading
+import os
 from typing import Optional
 from src.ingestion.schemas import SourceType
 from src.ingestion.normalizer import FrameNormalizer
@@ -22,13 +23,41 @@ class VideoAdapter:
         self.video_path = video_path
         self.running = False
         self.thread: Optional[threading.Thread] = None
+        self.startup_event = threading.Event()
+        self.startup_error: Optional[str] = None
 
     def _ingest_loop(self):
+        if not os.path.exists(self.video_path):
+            self.startup_error = f"Video not found: {self.video_path}"
+            self.startup_event.set()
+            self.running = False
+            return
+
         cap = cv2.VideoCapture(self.video_path)
+        if not cap.isOpened():
+            self.startup_error = f"Could not open video: {self.video_path}"
+            self.startup_event.set()
+            self.running = False
+            return
+
+        ret, first_frame = cap.read()
+        if not ret:
+            self.startup_error = f"Video opened but no frames were readable: {self.video_path}"
+            self.startup_event.set()
+            self.running = False
+            cap.release()
+            return
+
+        self.startup_event.set()
         frame_idx = 0
         
         while self.running:
-            ret, frame = cap.read()
+            if first_frame is not None:
+                frame = first_frame
+                ret = True
+                first_frame = None
+            else:
+                ret, frame = cap.read()
             if not ret:
                 print(f"[VideoAdapter] Reached end of video: {self.video_path}")
                 break
@@ -57,9 +86,15 @@ class VideoAdapter:
 
     def start(self):
         if not self.running:
+            self.startup_error = None
+            self.startup_event.clear()
             self.running = True
             self.thread = threading.Thread(target=self._ingest_loop, daemon=True)
             self.thread.start()
+            self.startup_event.wait(timeout=4.0)
+            if self.startup_error:
+                self.running = False
+                raise RuntimeError(self.startup_error)
 
     def stop(self):
         self.running = False

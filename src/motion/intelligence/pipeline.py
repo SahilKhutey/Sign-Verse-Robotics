@@ -4,7 +4,9 @@ from src.motion.intelligence.segmenter import ActionSegmenter
 from src.motion.intelligence.embedding import MotionEmbedding
 from src.motion.intelligence.context import ContextEngine
 from src.motion.intelligence.policy import AdaptivePolicy
-from src.motion.intelligence.learning.engine import CLPEngine
+from src.motion.intelligence.learning.engine import CLPEngineV2
+from src.motion.intelligence.memory import BehaviorMemory
+from src.motion.intelligence.multimodal.engine import MultimodalEngine
 from src.motion.intelligence.tie.model import IntentTransformer
 from src.motion.intelligence.tie.inference import IntentInferenceEngine
 from src.motion.intelligence.multimodal.state import HumanState
@@ -46,7 +48,7 @@ class IntelligencePipeline:
         self.policy = RLPolicyEngine()
         self.context_engine = ContextEngine()
         self.multimodal = MultimodalEngine()
-        self.clpe = CLPEngine()
+        self.clpe = CLPEngineV2()
         
         # 4. PRS: Production Robotics Stack
         self.retargeter = RetargetEngine(target_profile="humanoid")
@@ -100,7 +102,19 @@ class IntelligencePipeline:
         is_significant_event = segmenter.detect_trigger(state)
         
         if not is_significant_event and not buffer.is_ready():
-            return {"intent": "IDLE", "action": {"command": "idle"}, "context": "NEUTRAL"}
+            return HumanState(
+                timestamp=state.timestamp,
+                subject_id=subject_id,
+                intent="IDLE",
+                emotion="NEUTRAL",
+                engagement=0.0,
+                priority=0.0,
+                intensity=0.0,
+                distance=0.0,
+                social_zone="UNKNOWN",
+                confidence=0.0,
+                metadata={"context": "BUFFERING"}
+            )
 
         # 3. Contextual Inference (from previous patterns)
         history = memory.get_recent(20)
@@ -180,3 +194,18 @@ class IntelligencePipeline:
         Refines a set of human states with scene-wide balancing (Priority).
         """
         return self.multimodal.balance_scene(human_states)
+
+    def calibrate(self):
+        """Resets all per-ID buffers and state machines to a baseline neutral state."""
+        self.subject_states.clear()
+        self.clpe.reset_all()
+        print("[Intelligence] Full System Calibration Complete.")
+
+    def load_model_weights(self, path: str):
+        """Swaps the active TIE Transformer weights in real-time."""
+        if os.path.exists(path):
+            self.tie_model.load_state_dict(torch.load(path, map_location='cpu'))
+            self.tie_engine = IntentInferenceEngine(self.tie_model)
+            print(f"[Intelligence] Loaded model weights from {path}")
+            return True
+        return False

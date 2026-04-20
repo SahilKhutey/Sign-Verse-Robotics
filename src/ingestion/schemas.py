@@ -8,6 +8,7 @@ class SourceType(str, Enum):
     IMAGE_SEQUENCE = "image_sequence"
     VIDEO = "video_upload"
     YOUTUBE = "youtube"
+    IMAGE = "image"
     STREAM = "rtsp"
 
 class UnifiedInputPacket(BaseModel):

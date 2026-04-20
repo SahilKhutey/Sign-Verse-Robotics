@@ -4,10 +4,15 @@ __pycache__/
 *$py.class
 venv/
 env/
+.venv/
+.venv_312/
 .env
 
-# Models & Checkpoints (Large Binaries)
-models/
+# Models & Checkpoints (TRACKED)
+# models/
+
+# Datasets (Large Binaries - IGNORED)
+datasets/
 storage/datasets/
 storage/checkpoints/
 
@@ -25,3 +30,4 @@ dashboard/out/
 # Logs
 logs/
 *.log
+backend_output.log

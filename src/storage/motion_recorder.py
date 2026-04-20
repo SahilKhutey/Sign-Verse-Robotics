@@ -37,7 +37,9 @@ class MotionStateRecorder:
             "timestamp": state.timestamp,
             "position": state.position.tolist() if isinstance(state.position, np.ndarray) else state.position,
             "velocity": state.velocity.tolist() if isinstance(state.velocity, np.ndarray) else state.velocity,
-            "confidence": state.confidence
+            "confidence": state.confidence,
+            "source_id": state.source_id,
+            "metadata": state.metadata or {}
         }
         
         # Add joints if available

@@ -13,27 +13,36 @@ class KinematicNormalizer:
         if joints.size == 0:
             return joints
 
-        # 1. Centering at the root (Pelvis area)
-        # MediaPipe Pose joint 0 is the nose, but 11/12 are shoulders.
-        # We'll use the mean of the upper body/torso joints as a stable root
-        # MediaPipe Indices: 11(L shoulder), 12(R shoulder), 23(L hip), 24(R hip)
-        # Assume our fused joint vector follows consistent indices
-        torso_indices = [11, 12, 23, 24] # Standard MediaPipe-aligned indices
-        
-        # Calculate centering root
-        root = np.mean(joints[torso_indices], axis=0)
-        
-        # Subtract root to center at zero
+        pose_joint_count = min(len(joints), 33)
+        pose_joints = joints[:pose_joint_count]
+        if pose_joint_count == 0:
+            return joints
+
+        torso_indices = [11, 12, 23, 24]
+        valid_torso = [idx for idx in torso_indices if idx < pose_joint_count and np.linalg.norm(pose_joints[idx]) > 1e-5]
+        valid_pose = pose_joints[np.linalg.norm(pose_joints, axis=1) > 1e-5]
+
+        if valid_torso:
+            root = np.mean(pose_joints[valid_torso], axis=0)
+        elif len(valid_pose) > 0:
+            root = np.mean(valid_pose, axis=0)
+        else:
+            root = np.zeros(3, dtype=joints.dtype)
+
         centered = joints - root
-        
-        # 2. Scaling Normalization (Body Size invariance)
-        # We scale based on the 'Torso Height' (average of shoulders to average of hips)
-        shoulder_mean = np.mean(joints[11:13], axis=0) # [11, 12]
-        hip_mean = np.mean(joints[23:25], axis=0)      # [23, 24]
-        
-        torso_height = np.linalg.norm(shoulder_mean - hip_mean) + 1e-6
-        
-        # Normalize the entire cloud by this unit height
-        normalized = centered / torso_height
-        
+
+        shoulder_indices = [idx for idx in [11, 12] if idx < pose_joint_count and np.linalg.norm(pose_joints[idx]) > 1e-5]
+        hip_indices = [idx for idx in [23, 24] if idx < pose_joint_count and np.linalg.norm(pose_joints[idx]) > 1e-5]
+        if shoulder_indices and hip_indices:
+            shoulder_mean = np.mean(pose_joints[shoulder_indices], axis=0)
+            hip_mean = np.mean(pose_joints[hip_indices], axis=0)
+            scale = np.linalg.norm(shoulder_mean - hip_mean)
+        elif len(valid_pose) > 1:
+            pose_extent = np.max(valid_pose, axis=0) - np.min(valid_pose, axis=0)
+            scale = max(float(np.linalg.norm(pose_extent)), 1e-3)
+        else:
+            scale = 1.0
+
+        scale = max(float(scale), 1e-3)
+        normalized = centered / scale
         return normalized

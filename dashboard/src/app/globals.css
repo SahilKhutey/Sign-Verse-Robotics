@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", monospace;
+
+  /* Stitch Export Core Colors */
+  --color-on-surface: #e5e2e1;
+  --color-background: #131313;
+  --color-surface: #131313;
+  --color-surface-variant: #353534;
+  --color-outline: #8b90a0;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-outline-variant: #414754;
+
+  --color-primary: #adc7ff;
+  --color-on-primary: #002e68;
+  --color-primary-container: #4a8eff;
+  --color-on-primary-container: #00285b;
+
+  --color-secondary: #adc7ff;
+  --color-on-secondary: #072f64;
+  --color-secondary-container: #29487f;
+  --color-on-secondary-container: #9bb8f6;
+
+  --color-tertiary: #2ae500;
+  --color-on-tertiary: #053900;
+  --color-tertiary-container: #1da800;
+  --color-on-tertiary-container: #043200;
+
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+}
+
+@layer base {
+  :root {
+    --background: #0e0e0e;
+    --foreground: #e5e2e1;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #414754; border-radius: 10px; }
+
+.glow-blue { box-shadow: 0 0 15px rgba(173, 199, 255, 0.2); }
+.glow-green { box-shadow: 0 0 10px rgba(42, 229, 0, 0.15); }
+.glass-panel { 
+    backdrop-filter: blur(12px); 
+    background-color: rgba(53, 53, 52, 0.6); 
+}

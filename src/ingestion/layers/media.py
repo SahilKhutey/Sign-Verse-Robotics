@@ -15,9 +15,9 @@ class MediaNormalizer:
         if frame.ndim == 3 and frame.shape[2] == 3:
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-        # 2. Numerical Normalization (0-255 uint8 to 0-1 float32)
-        # Standardizing bit depth for platform-wide consistency
-        normalized_frame = frame.astype(np.float32) / 255.0
-
-        data["frame"] = normalized_frame
+        # 2. Numerical Normalization (REMOVED)
+        # Note: Scaling to float32 [0, 1] is moved to individual model wrappers
+        # to prevent global pipeline breakage where models expect uint8 0-255.
+        
+        data["frame"] = frame # Keep as uint8 for perception processing
         return data

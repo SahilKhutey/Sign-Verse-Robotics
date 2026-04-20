@@ -1,52 +1,43 @@
-from fastapi import APIRouter, WebSocket, WebSocketDisconnect
-import json
-import asyncio
-from typing import List, Dict, Any
+from fastapi import APIRouter, HTTPException
+from typing import Dict, Any
 
 router = APIRouter()
 
-class TelemetryBroadcaster:
-    """
-    Manages high-frequency WebSocket broadcasting for the Dashboard.
-    Optimized for 30FPS telemetry + sampled video status.
-    """
-    def __init__(self):
-        self.active_connections: List[WebSocket] = []
+# Global reference to orchestrator, initialized in main.py
+orchestrator = None
 
-    async def connect(self, websocket: WebSocket):
-        await websocket.accept()
-        self.active_connections.append(websocket)
+def init_orchestrator(ord_instance):
+    global orchestrator
+    orchestrator = ord_instance
 
-    def disconnect(self, websocket: WebSocket):
-        self.active_connections.remove(websocket)
+@router.post("/control/capture/toggle")
+async def toggle_capture():
+    if not orchestrator:
+        raise HTTPException(status_code=500, detail="Orchestrator not initialized")
+    state = orchestrator.toggle_recording()
+    return {"status": "success", "is_recording": state}
 
-    async def broadcast(self, data: Dict[str, Any]):
-        message = json.dumps(data)
-        for connection in self.active_connections:
-            try:
-                await connection.send_text(message)
-            except Exception:
-                pass
+@router.post("/control/sim/toggle")
+async def toggle_sim():
+    # Placeholder for simulation engine toggle
+    return {"status": "success", "simulation_active": True}
 
-broadcaster = TelemetryBroadcaster()
+@router.post("/control/annotations/toggle")
+async def toggle_annotations():
+    if not orchestrator:
+        raise HTTPException(status_code=500, detail="Orchestrator not initialized")
+    orchestrator.show_annotations = not orchestrator.show_annotations
+    return {"status": "success", "show_annotations": orchestrator.show_annotations}
 
-@router.websocket("/ws/telemetry")
-async def websocket_endpoint(websocket: WebSocket):
-    await broadcaster.connect(websocket)
-    try:
-        while True:
-            # Keep connection alive
-            await websocket.receive_text()
-    except WebSocketDisconnect:
-        broadcaster.disconnect(websocket)
+@router.post("/control/emergency/stop")
+async def emergency_stop():
+    if not orchestrator:
+        raise HTTPException(status_code=500, detail="Orchestrator not initialized")
+    result = orchestrator.emergency_stop()
+    return result
 
-@router.post("/control/capture/{action}")
-async def control_capture(action: str):
-    """Start/Stop recording and capture pipelines."""
-    # Logic to trigger capture engine
-    return {"status": f"Capture {action}ed"}
-
-@router.post("/control/sim/{action}")
-async def control_sim(action: str):
-    """Start/Stop or trigger disturbances in the simulation."""
-    return {"status": f"Simulation {action}ed"}
+@router.get("/status")
+async def get_system_status():
+    if not orchestrator:
+        return {"status": "offline"}
+    return orchestrator.get_health_report()
