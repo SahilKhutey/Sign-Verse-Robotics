@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628",
+  "session_path": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628",
+  "inspection": {
+    "name": "08_parkour_Tricking_Masterclass_TRUE_MOVEMENT_1_4_Lifestyle_ep._7_-HGIvUbHkvY.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\08_parkour_Tricking_Masterclass_TRUE_MOVEMENT_1_4_Lifestyle_ep._7_-HGIvUbHkvY.mp4",
+    "fps": 23.976023976023978,
+    "frame_count": 7593,
+    "duration_s": 316.691375,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 169.42385244369507,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\08_parkour_Tricking_Masterclass_TRUE_MOVEMENT_1_4_Lifestyle_ep._7_-HGIvUbHkvY.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628",
+    "source_fps": 23.976023976023978,
+    "effective_fps": 1.998001998001998,
+    "processed_frames": 633,
+    "tracked_frames": 622,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_08_08_parkour_tricking_masterclass_true_movement_1__9976ca88_1776765628\\blender_export.bvh"
+    }
+  }
+}

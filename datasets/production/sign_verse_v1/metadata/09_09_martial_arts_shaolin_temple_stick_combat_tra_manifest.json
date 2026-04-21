@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798",
+  "session_path": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798",
+  "inspection": {
+    "name": "09_martial arts_Shaolin_Temple_Stick_Combat_Training_Kanishka_Sharma_-xuBuWdKOBw.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\09_martial arts_Shaolin_Temple_Stick_Combat_Training_Kanishka_Sharma_-xuBuWdKOBw.mp4",
+    "fps": 25.0,
+    "frame_count": 418,
+    "duration_s": 16.72,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 8.106958866119385,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\09_martial arts_Shaolin_Temple_Stick_Combat_Training_Kanishka_Sharma_-xuBuWdKOBw.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798",
+    "source_fps": 25.0,
+    "effective_fps": 2.0833333333333335,
+    "processed_frames": 35,
+    "tracked_frames": 35,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_09_09_martial_arts_shaolin_temple_stick_combat_trai_06a7397f_1776765798\\blender_export.bvh"
+    }
+  }
+}

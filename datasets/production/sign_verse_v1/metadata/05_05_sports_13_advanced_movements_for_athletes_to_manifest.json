@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229",
+  "session_path": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229",
+  "inspection": {
+    "name": "05_sports_13_Advanced_Movements_For_Athletes_To_Improve_Speed_Explosiveness_Power_4DB6910HGr4.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\05_sports_13_Advanced_Movements_For_Athletes_To_Improve_Speed_Explosiveness_Power_4DB6910HGr4.mp4",
+    "fps": 29.97,
+    "frame_count": 17440,
+    "duration_s": 581.9152485819153,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 243.40016651153564,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\05_sports_13_Advanced_Movements_For_Athletes_To_Improve_Speed_Explosiveness_Power_4DB6910HGr4.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229",
+    "source_fps": 29.97,
+    "effective_fps": 1.998,
+    "processed_frames": 1163,
+    "tracked_frames": 1155,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_05_05_sports_13_advanced_movements_for_athletes_to__cc0a2d5e_1776765229\\blender_export.bvh"
+    }
+  }
+}

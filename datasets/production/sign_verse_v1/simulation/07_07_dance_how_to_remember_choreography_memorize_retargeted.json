@@ -1,0 +1,2904 @@
+{
+  "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\07_dance_How_to_Remember_Choreography_-_Memorize_Dance_Routines_EASILY_Dance_Tips_STEEZY._Bw3T5knpcKo.mp4",
+  "sample_fps": 2.0,
+  "frames": [
+    {
+      "frame_index": 0,
+      "timestamp": 0.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.069052,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 1,
+      "timestamp": 0.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.1885898,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 2,
+      "timestamp": 1.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.3006005,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 3,
+      "timestamp": 1.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.3997443,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 4,
+      "timestamp": 2.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.7129111,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 5,
+      "timestamp": 2.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.8342073,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 6,
+      "timestamp": 3.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765592.9406354,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 7,
+      "timestamp": 3.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765593.0452616,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 8,
+      "timestamp": 4.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765593.3681686,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 9,
+      "timestamp": 4.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765593.4923458,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 10,
+      "timestamp": 5.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765593.5893354,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 11,
+      "timestamp": 5.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765593.6879714,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 12,
+      "timestamp": 6.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765594.056224,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 13,
+      "timestamp": 6.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765594.1837003,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 14,
+      "timestamp": 7.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765594.3019886,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 15,
+      "timestamp": 7.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765594.4302342,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 16,
+      "timestamp": 8.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765594.9128506,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 17,
+      "timestamp": 8.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.0447443,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 18,
+      "timestamp": 9.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.1805646,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 19,
+      "timestamp": 9.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.3114986,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 20,
+      "timestamp": 10.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.661213,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 21,
+      "timestamp": 10.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.798773,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 22,
+      "timestamp": 11.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765595.9181452,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 23,
+      "timestamp": 11.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765596.0438397,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 24,
+      "timestamp": 12.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765596.403191,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 25,
+      "timestamp": 12.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765596.5277824,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 26,
+      "timestamp": 13.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765596.643469,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 27,
+      "timestamp": 13.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765596.7637465,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 28,
+      "timestamp": 14.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.1101067,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 29,
+      "timestamp": 14.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.227295,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 30,
+      "timestamp": 15.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.337221,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 31,
+      "timestamp": 15.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.4370074,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 32,
+      "timestamp": 16.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.750882,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 33,
+      "timestamp": 16.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.8703744,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 34,
+      "timestamp": 17.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765597.969361,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 35,
+      "timestamp": 17.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765598.0744622,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 36,
+      "timestamp": 18.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765598.3993833,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 37,
+      "timestamp": 18.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765598.5135365,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 38,
+      "timestamp": 19.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765598.6125321,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 39,
+      "timestamp": 19.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765598.71056,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 40,
+      "timestamp": 20.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.1177478,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 41,
+      "timestamp": 20.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.2192883,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 42,
+      "timestamp": 21.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.3317354,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 43,
+      "timestamp": 21.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.430159,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 44,
+      "timestamp": 22.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.8029418,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 45,
+      "timestamp": 22.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765599.9404078,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 46,
+      "timestamp": 23.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765600.0833688,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 47,
+      "timestamp": 23.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765600.2213666,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 48,
+      "timestamp": 24.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765600.5947013,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 49,
+      "timestamp": 24.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765600.7354517,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 50,
+      "timestamp": 25.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765600.8691022,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 51,
+      "timestamp": 25.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765601.0057912,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 52,
+      "timestamp": 26.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765601.3819895,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 53,
+      "timestamp": 26.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765601.5212767,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 54,
+      "timestamp": 27.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765601.6646843,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 55,
+      "timestamp": 27.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765601.8026016,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 56,
+      "timestamp": 28.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765602.171341,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 57,
+      "timestamp": 28.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765602.306102,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 58,
+      "timestamp": 29.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765602.42191,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 59,
+      "timestamp": 29.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765602.5418117,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 60,
+      "timestamp": 30.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765602.8918743,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 61,
+      "timestamp": 30.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.0215032,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 62,
+      "timestamp": 31.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.1435647,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 63,
+      "timestamp": 31.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.268259,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 64,
+      "timestamp": 32.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.6108618,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 65,
+      "timestamp": 32.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.7371805,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 66,
+      "timestamp": 33.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.862584,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 67,
+      "timestamp": 33.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765603.9794204,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 68,
+      "timestamp": 34.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765604.3353496,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 69,
+      "timestamp": 34.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765604.445201,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 70,
+      "timestamp": 35.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765604.5456932,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 71,
+      "timestamp": 35.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765604.6440356,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 72,
+      "timestamp": 36.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765604.9617963,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 73,
+      "timestamp": 36.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.0786598,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 74,
+      "timestamp": 37.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.1777208,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 75,
+      "timestamp": 37.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.2805657,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 76,
+      "timestamp": 38.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.5831797,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 77,
+      "timestamp": 38.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.6602054,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 78,
+      "timestamp": 39.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.7316651,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 79,
+      "timestamp": 39.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765605.7953203,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 80,
+      "timestamp": 40.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.054114,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 81,
+      "timestamp": 40.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.133494,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 82,
+      "timestamp": 41.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.203431,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 83,
+      "timestamp": 41.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.2651472,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 84,
+      "timestamp": 42.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.586095,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 85,
+      "timestamp": 42.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.703137,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 86,
+      "timestamp": 43.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.8046937,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 87,
+      "timestamp": 43.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765606.905006,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 88,
+      "timestamp": 44.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765607.231709,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 89,
+      "timestamp": 44.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765607.3500078,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 90,
+      "timestamp": 45.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765607.459133,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 91,
+      "timestamp": 45.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765607.558527,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 92,
+      "timestamp": 46.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765607.8778923,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 93,
+      "timestamp": 46.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.001292,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 94,
+      "timestamp": 47.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.1012585,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 95,
+      "timestamp": 47.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.2006922,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 96,
+      "timestamp": 48.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.5244167,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 97,
+      "timestamp": 48.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.6362007,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 98,
+      "timestamp": 49.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.7361844,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 99,
+      "timestamp": 49.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765608.8332999,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 100,
+      "timestamp": 50.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.1666446,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 101,
+      "timestamp": 50.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.2632852,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 102,
+      "timestamp": 51.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.3873758,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 103,
+      "timestamp": 51.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.4848118,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 104,
+      "timestamp": 52.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.7968884,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 105,
+      "timestamp": 52.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.8747249,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 106,
+      "timestamp": 53.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765610.944552,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 107,
+      "timestamp": 53.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.0061011,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 108,
+      "timestamp": 54.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.2689438,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 109,
+      "timestamp": 54.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.343639,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 110,
+      "timestamp": 55.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.4179828,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 111,
+      "timestamp": 55.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.4758198,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 112,
+      "timestamp": 56.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.7452278,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 113,
+      "timestamp": 56.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.8239665,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 114,
+      "timestamp": 57.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.8998883,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 115,
+      "timestamp": 57.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765611.9621959,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 116,
+      "timestamp": 58.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.2306848,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 117,
+      "timestamp": 58.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.3116043,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 118,
+      "timestamp": 59.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.3850052,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 119,
+      "timestamp": 59.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.446474,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 120,
+      "timestamp": 60.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.7597303,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 121,
+      "timestamp": 60.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.8724754,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 122,
+      "timestamp": 61.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765612.970361,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 123,
+      "timestamp": 61.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765613.0797284,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 124,
+      "timestamp": 62.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765613.4095206,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 125,
+      "timestamp": 62.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765613.5229201,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 126,
+      "timestamp": 63.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765613.6190093,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 127,
+      "timestamp": 63.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765613.7164412,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 128,
+      "timestamp": 64.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.0302176,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 129,
+      "timestamp": 64.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.1471665,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 130,
+      "timestamp": 65.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.2521925,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 131,
+      "timestamp": 65.5,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.3503044,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 132,
+      "timestamp": 66.0,
+      "subject_id": 0,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.6592321,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 133,
+      "timestamp": 66.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.7369893,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 134,
+      "timestamp": 67.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.801351,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 135,
+      "timestamp": 67.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765614.8602,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 136,
+      "timestamp": 68.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.118846,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 137,
+      "timestamp": 68.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.1963139,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 138,
+      "timestamp": 69.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.2694416,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 139,
+      "timestamp": 69.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.328036,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 140,
+      "timestamp": 70.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.5721092,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 141,
+      "timestamp": 70.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.6401277,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 142,
+      "timestamp": 71.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.7221396,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 143,
+      "timestamp": 71.5,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765615.786436,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 144,
+      "timestamp": 72.0,
+      "subject_id": 1,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765616.0502126,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 150,
+      "timestamp": 75.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.1527333,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 151,
+      "timestamp": 75.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.2399836,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 152,
+      "timestamp": 76.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.501435,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 153,
+      "timestamp": 76.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.5767605,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 154,
+      "timestamp": 77.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.6549313,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 155,
+      "timestamp": 77.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.7180822,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 156,
+      "timestamp": 78.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765617.982629,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 157,
+      "timestamp": 78.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.0650377,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 158,
+      "timestamp": 79.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.1456366,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 159,
+      "timestamp": 79.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.206396,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 160,
+      "timestamp": 80.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.5981574,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 161,
+      "timestamp": 80.5,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.7399952,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 162,
+      "timestamp": 81.0,
+      "subject_id": 2,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.8760881,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 163,
+      "timestamp": 81.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765618.9918382,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 164,
+      "timestamp": 82.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765619.3394406,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 165,
+      "timestamp": 82.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765619.4639332,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 166,
+      "timestamp": 83.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765619.588482,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 167,
+      "timestamp": 83.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765619.7068794,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 168,
+      "timestamp": 84.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.0527587,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 169,
+      "timestamp": 84.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.178273,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 170,
+      "timestamp": 85.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.3068814,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 171,
+      "timestamp": 85.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.4244173,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 172,
+      "timestamp": 86.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.765278,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 173,
+      "timestamp": 86.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765620.894191,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 174,
+      "timestamp": 87.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.008554,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 175,
+      "timestamp": 87.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.127601,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 176,
+      "timestamp": 88.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.4711852,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 177,
+      "timestamp": 88.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.5993237,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 178,
+      "timestamp": 89.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.7241733,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 179,
+      "timestamp": 89.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765621.844179,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 180,
+      "timestamp": 90.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765622.1795943,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 181,
+      "timestamp": 90.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765622.3108373,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 182,
+      "timestamp": 91.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765622.4297245,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 183,
+      "timestamp": 91.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765622.5462317,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 184,
+      "timestamp": 92.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765622.8888528,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 185,
+      "timestamp": 92.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.0194805,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 186,
+      "timestamp": 93.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.1382124,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 187,
+      "timestamp": 93.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.2584245,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 188,
+      "timestamp": 94.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.590347,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 189,
+      "timestamp": 94.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.7009623,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 190,
+      "timestamp": 95.0,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.8124928,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 191,
+      "timestamp": 95.5,
+      "subject_id": 4,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765623.9134283,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 192,
+      "timestamp": 96.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.2175345,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 193,
+      "timestamp": 96.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.3372965,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 194,
+      "timestamp": 97.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.4349704,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 195,
+      "timestamp": 97.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.533365,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 196,
+      "timestamp": 98.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.8510516,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 197,
+      "timestamp": 98.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765624.9628015,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 198,
+      "timestamp": 99.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765625.0620527,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 199,
+      "timestamp": 99.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765625.1586053,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 200,
+      "timestamp": 100.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765626.6207826,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 201,
+      "timestamp": 100.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765626.7669487,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 202,
+      "timestamp": 101.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765626.9031305,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 203,
+      "timestamp": 101.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765627.0481608,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 204,
+      "timestamp": 102.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765627.416269,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 205,
+      "timestamp": 102.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765627.5599825,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 206,
+      "timestamp": 103.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765627.7037244,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 207,
+      "timestamp": 103.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765627.8490143,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 208,
+      "timestamp": 104.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765628.2155764,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 209,
+      "timestamp": 104.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765628.3653276,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 210,
+      "timestamp": 105.0,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765628.501709,
+        "status": "SOLVER_STABLE"
+      }
+    },
+    {
+      "frame_index": 211,
+      "timestamp": 105.5,
+      "subject_id": 3,
+      "robot_joints": {
+        "l_elbow_pitch": 0.0,
+        "l_shoulder_pitch": 0.0,
+        "r_elbow_pitch": 0.0,
+        "r_shoulder_pitch": 0.0,
+        "waist_yaw": 0.0,
+        "timestamp": 1776765628.6338937,
+        "status": "SOLVER_STABLE"
+      }
+    }
+  ]
+}

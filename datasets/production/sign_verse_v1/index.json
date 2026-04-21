@@ -1,0 +1,190 @@
+{
+  "dataset_name": "Sign-Verse Production Dataset V1",
+  "version": "1.0.0",
+  "release_date": "2026-04-21",
+  "total_videos": 10,
+  "categories": [
+    "acting",
+    "art",
+    "cooking",
+    "dance",
+    "martial arts",
+    "parkour",
+    "speech",
+    "sports",
+    "workout",
+    "yoga"
+  ],
+  "videos": [
+    {
+      "category": "workout",
+      "slug": "01_01_workout_how_to_unlock_your_mobility_in_5_min",
+      "video_id": "sOuKeVuej9E",
+      "duration_s": 628.3610666666667,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\01_01_workout_how_to_unlock_your_mobility_in_5_min_training.npy",
+        "training_set_csv": "kinematics\\01_01_workout_how_to_unlock_your_mobility_in_5_min_training.csv",
+        "simulation_3d": "simulation\\01_01_workout_how_to_unlock_your_mobility_in_5_min_sim3d.json",
+        "retargeted_motion": "simulation\\01_01_workout_how_to_unlock_your_mobility_in_5_min_retargeted.json",
+        "blender_export_bvh": "animation\\01_01_workout_how_to_unlock_your_mobility_in_5_min_animation.bvh",
+        "gltf_animation": "animation\\01_01_workout_how_to_unlock_your_mobility_in_5_min_animation_gltf.json",
+        "annotated_preview": "previews\\01_01_workout_how_to_unlock_your_mobility_in_5_min_preview.mp4",
+        "source_manifest": "metadata\\01_01_workout_how_to_unlock_your_mobility_in_5_min_manifest.json"
+      }
+    },
+    {
+      "category": "art",
+      "slug": "02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a",
+      "video_id": "R41EBiIxdU8",
+      "duration_s": 152.06858333333332,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_training.npy",
+        "training_set_csv": "kinematics\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_training.csv",
+        "simulation_3d": "simulation\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_sim3d.json",
+        "retargeted_motion": "simulation\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_retargeted.json",
+        "blender_export_bvh": "animation\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_animation.bvh",
+        "gltf_animation": "animation\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_animation_gltf.json",
+        "annotated_preview": "previews\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_preview.mp4",
+        "source_manifest": "metadata\\02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_manifest.json"
+      }
+    },
+    {
+      "category": "cooking",
+      "slug": "03_03_cooking_the_5_skills_every_chef_needs_to_lea",
+      "video_id": "i-PFRieQ",
+      "duration_s": 591.0,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_training.npy",
+        "training_set_csv": "kinematics\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_training.csv",
+        "simulation_3d": "simulation\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_sim3d.json",
+        "retargeted_motion": "simulation\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_retargeted.json",
+        "blender_export_bvh": "animation\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_animation.bvh",
+        "gltf_animation": "animation\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_animation_gltf.json",
+        "annotated_preview": "previews\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_preview.mp4",
+        "source_manifest": "metadata\\03_03_cooking_the_5_skills_every_chef_needs_to_lea_manifest.json"
+      }
+    },
+    {
+      "category": "speech",
+      "slug": "04_04_speech_6_hand_gestures_for_effective_public",
+      "video_id": "3yYjYvdcCw8",
+      "duration_s": 521.8,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\04_04_speech_6_hand_gestures_for_effective_public_training.npy",
+        "training_set_csv": "kinematics\\04_04_speech_6_hand_gestures_for_effective_public_training.csv",
+        "simulation_3d": "simulation\\04_04_speech_6_hand_gestures_for_effective_public_sim3d.json",
+        "retargeted_motion": "simulation\\04_04_speech_6_hand_gestures_for_effective_public_retargeted.json",
+        "blender_export_bvh": "animation\\04_04_speech_6_hand_gestures_for_effective_public_animation.bvh",
+        "gltf_animation": "animation\\04_04_speech_6_hand_gestures_for_effective_public_animation_gltf.json",
+        "annotated_preview": "previews\\04_04_speech_6_hand_gestures_for_effective_public_preview.mp4",
+        "source_manifest": "metadata\\04_04_speech_6_hand_gestures_for_effective_public_manifest.json"
+      }
+    },
+    {
+      "category": "sports",
+      "slug": "05_05_sports_13_advanced_movements_for_athletes_to",
+      "video_id": "4DB6910HGr4",
+      "duration_s": 581.9152485819153,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\05_05_sports_13_advanced_movements_for_athletes_to_training.npy",
+        "training_set_csv": "kinematics\\05_05_sports_13_advanced_movements_for_athletes_to_training.csv",
+        "simulation_3d": "simulation\\05_05_sports_13_advanced_movements_for_athletes_to_sim3d.json",
+        "retargeted_motion": "simulation\\05_05_sports_13_advanced_movements_for_athletes_to_retargeted.json",
+        "blender_export_bvh": "animation\\05_05_sports_13_advanced_movements_for_athletes_to_animation.bvh",
+        "gltf_animation": "animation\\05_05_sports_13_advanced_movements_for_athletes_to_animation_gltf.json",
+        "annotated_preview": "previews\\05_05_sports_13_advanced_movements_for_athletes_to_preview.mp4",
+        "source_manifest": "metadata\\05_05_sports_13_advanced_movements_for_athletes_to_manifest.json"
+      }
+    },
+    {
+      "category": "acting",
+      "slug": "06_06_acting_how_to_act_on_camera_with_chris_mack",
+      "video_id": "w-KQemXlVB8",
+      "duration_s": 337.16,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\06_06_acting_how_to_act_on_camera_with_chris_mack_training.npy",
+        "training_set_csv": "kinematics\\06_06_acting_how_to_act_on_camera_with_chris_mack_training.csv",
+        "simulation_3d": "simulation\\06_06_acting_how_to_act_on_camera_with_chris_mack_sim3d.json",
+        "retargeted_motion": "simulation\\06_06_acting_how_to_act_on_camera_with_chris_mack_retargeted.json",
+        "blender_export_bvh": "animation\\06_06_acting_how_to_act_on_camera_with_chris_mack_animation.bvh",
+        "gltf_animation": "animation\\06_06_acting_how_to_act_on_camera_with_chris_mack_animation_gltf.json",
+        "annotated_preview": "previews\\06_06_acting_how_to_act_on_camera_with_chris_mack_preview.mp4",
+        "source_manifest": "metadata\\06_06_acting_how_to_act_on_camera_with_chris_mack_manifest.json"
+      }
+    },
+    {
+      "category": "dance",
+      "slug": "07_07_dance_how_to_remember_choreography_memorize",
+      "video_id": "Bw3T5knpcKo",
+      "duration_s": 105.91666666666667,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\07_07_dance_how_to_remember_choreography_memorize_training.npy",
+        "training_set_csv": "kinematics\\07_07_dance_how_to_remember_choreography_memorize_training.csv",
+        "simulation_3d": "simulation\\07_07_dance_how_to_remember_choreography_memorize_sim3d.json",
+        "retargeted_motion": "simulation\\07_07_dance_how_to_remember_choreography_memorize_retargeted.json",
+        "blender_export_bvh": "animation\\07_07_dance_how_to_remember_choreography_memorize_animation.bvh",
+        "gltf_animation": "animation\\07_07_dance_how_to_remember_choreography_memorize_animation_gltf.json",
+        "annotated_preview": "previews\\07_07_dance_how_to_remember_choreography_memorize_preview.mp4",
+        "source_manifest": "metadata\\07_07_dance_how_to_remember_choreography_memorize_manifest.json"
+      }
+    },
+    {
+      "category": "parkour",
+      "slug": "08_08_parkour_tricking_masterclass_true_movement_1",
+      "video_id": "-HGIvUbHkvY",
+      "duration_s": 316.691375,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\08_08_parkour_tricking_masterclass_true_movement_1_training.npy",
+        "training_set_csv": "kinematics\\08_08_parkour_tricking_masterclass_true_movement_1_training.csv",
+        "simulation_3d": "simulation\\08_08_parkour_tricking_masterclass_true_movement_1_sim3d.json",
+        "retargeted_motion": "simulation\\08_08_parkour_tricking_masterclass_true_movement_1_retargeted.json",
+        "blender_export_bvh": "animation\\08_08_parkour_tricking_masterclass_true_movement_1_animation.bvh",
+        "gltf_animation": "animation\\08_08_parkour_tricking_masterclass_true_movement_1_animation_gltf.json",
+        "annotated_preview": "previews\\08_08_parkour_tricking_masterclass_true_movement_1_preview.mp4",
+        "source_manifest": "metadata\\08_08_parkour_tricking_masterclass_true_movement_1_manifest.json"
+      }
+    },
+    {
+      "category": "martial arts",
+      "slug": "09_09_martial_arts_shaolin_temple_stick_combat_tra",
+      "video_id": "-xuBuWdKOBw",
+      "duration_s": 16.72,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\09_09_martial_arts_shaolin_temple_stick_combat_tra_training.npy",
+        "training_set_csv": "kinematics\\09_09_martial_arts_shaolin_temple_stick_combat_tra_training.csv",
+        "simulation_3d": "simulation\\09_09_martial_arts_shaolin_temple_stick_combat_tra_sim3d.json",
+        "retargeted_motion": "simulation\\09_09_martial_arts_shaolin_temple_stick_combat_tra_retargeted.json",
+        "blender_export_bvh": "animation\\09_09_martial_arts_shaolin_temple_stick_combat_tra_animation.bvh",
+        "gltf_animation": "animation\\09_09_martial_arts_shaolin_temple_stick_combat_tra_animation_gltf.json",
+        "annotated_preview": "previews\\09_09_martial_arts_shaolin_temple_stick_combat_tra_preview.mp4",
+        "source_manifest": "metadata\\09_09_martial_arts_shaolin_temple_stick_combat_tra_manifest.json"
+      }
+    },
+    {
+      "category": "yoga",
+      "slug": "10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo",
+      "video_id": "5w2LO8UQjqw",
+      "duration_s": 155.3,
+      "fps": 2.0,
+      "files": {
+        "training_set_npy": "kinematics\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_training.npy",
+        "training_set_csv": "kinematics\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_training.csv",
+        "simulation_3d": "simulation\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_sim3d.json",
+        "retargeted_motion": "simulation\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_retargeted.json",
+        "blender_export_bvh": "animation\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_animation.bvh",
+        "gltf_animation": "animation\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_animation_gltf.json",
+        "annotated_preview": "previews\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_preview.mp4",
+        "source_manifest": "metadata\\10_10_yoga_yoga_dance_free_flow_valerie_lui_choreo_manifest.json"
+      }
+    }
+  ]
+}

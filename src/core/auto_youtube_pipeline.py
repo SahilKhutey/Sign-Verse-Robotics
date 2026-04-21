@@ -200,26 +200,46 @@ class AutoYouTubePipelineManager:
             downloaded_urls = set()
             for index, category in enumerate(job.categories, start=1):
                 query = f"{category} performance tutorial movement"
-                results = YouTubeAdapter.search(query, max_results=job.results_per_category)
+                # Search for more than requested to have alternatives ready (e.g. 5 requested + 15 buffer = 20)
+                search_buffer = 15
+                results = YouTubeAdapter.search(query, max_results=job.results_per_category + search_buffer)
+                
                 if not results:
                     job.message = f"No results found for {category}; continuing."
                     job.persist()
+                    continue
+
+                successful_downloads = 0
                 for result_index, result in enumerate(results, start=1):
+                    if successful_downloads >= job.results_per_category:
+                        break
+                        
                     url = result.get("url")
                     if not url or url in downloaded_urls:
                         continue
+                    
                     downloaded_urls.add(url)
                     job.phase = "downloading"
-                    job.message = f"Downloading {category} video {result_index}/{len(results)}."
+                    job.message = f"Downloading {category} video {successful_downloads + 1}/{job.results_per_category}."
                     job.persist()
-                    download = YouTubeAdapter.download_video(
-                        url,
-                        job.download_dir,
-                        filename_prefix=f"{index:02d}_{category.lower()}",
-                    )
-                    download["category"] = category
-                    job.downloaded_videos.append(download)
-                    job.persist()
+                    
+                    try:
+                        download = YouTubeAdapter.download_video(
+                            url,
+                            job.download_dir,
+                            filename_prefix=f"{index:02d}_{category.lower()}",
+                        )
+                        download["category"] = category
+                        job.downloaded_videos.append(download)
+                        successful_downloads += 1
+                        job.persist()
+                        # Small sleep to be kind to YouTube (2s as requested)
+                        time.sleep(2.0)
+                    except (Exception, BaseException) as e:
+                        print(f"[Sign-Verse Hardening] Intercepted failure for {url}: {e}")
+                        job.message = f"Download skipped for a {category} video; finding replacement..."
+                        job.persist()
+                        continue
 
             if not job.downloaded_videos:
                 raise RuntimeError("No videos were downloaded from the requested categories.")

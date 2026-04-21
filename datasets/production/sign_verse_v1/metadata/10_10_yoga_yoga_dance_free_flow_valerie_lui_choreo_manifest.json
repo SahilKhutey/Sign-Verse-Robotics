@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806",
+  "session_path": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806",
+  "inspection": {
+    "name": "10_yoga_Yoga_Dance_Free_Flow_Valerie_Lui_Choreography_5w2LO8UQjqw.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\10_yoga_Yoga_Dance_Free_Flow_Valerie_Lui_Choreography_5w2LO8UQjqw.mp4",
+    "fps": 30.0,
+    "frame_count": 4659,
+    "duration_s": 155.3,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 44.71807336807251,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\10_yoga_Yoga_Dance_Free_Flow_Valerie_Lui_Choreography_5w2LO8UQjqw.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806",
+    "source_fps": 30.0,
+    "effective_fps": 2.0,
+    "processed_frames": 311,
+    "tracked_frames": 309,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_10_10_yoga_yoga_dance_free_flow_valerie_lui_choreog_ba84597a_1776765806\\blender_export.bvh"
+    }
+  }
+}

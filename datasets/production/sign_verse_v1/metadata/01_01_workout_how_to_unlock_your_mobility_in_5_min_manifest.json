@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586",
+  "session_path": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586",
+  "inspection": {
+    "name": "01_workout_How_To_Unlock_Your_Mobility_in_5_Minutes_DAILY_STRETCH_sOuKeVuej9E.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\01_workout_How_To_Unlock_Your_Mobility_in_5_Minutes_DAILY_STRETCH_sOuKeVuej9E.mp4",
+    "fps": 29.97002997002997,
+    "frame_count": 18832,
+    "duration_s": 628.3610666666667,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 217.45891499519348,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\01_workout_How_To_Unlock_Your_Mobility_in_5_Minutes_DAILY_STRETCH_sOuKeVuej9E.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586",
+    "source_fps": 29.97002997002997,
+    "effective_fps": 1.998001998001998,
+    "processed_frames": 1256,
+    "tracked_frames": 1155,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_01_01_workout_how_to_unlock_your_mobility_in_5_minu_980c0131_1776764586\\blender_export.bvh"
+    }
+  }
+}

@@ -34,6 +34,8 @@ class YouTubeAdapter:
             'quiet': True,
             'noplaylist': True,
             'cookiesfrombrowser': ('chrome',),  # Bypass bot detection with active session
+            'ignoreerrors': True,
+            'no_warnings': True,
         }
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -189,10 +191,21 @@ class YouTubeAdapter:
             "noplaylist": True,
             "windowsfilenames": True,
             "restrictfilenames": False,
+            "retries": 10,
+            "fragment_retries": 10,
+            "socket_timeout": 30,
+            "continuedl": True,
+            "nocheckcertificate": True,
+            "ignoreerrors": True,
+            "no_warnings": True,
+            "quiet": True,
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(youtube_url, download=False)
+            if info is None:
+                raise RuntimeError(f"YouTube metadata extraction failed for {youtube_url} (video might be unavailable or private)")
+                
             title = info.get("title", "youtube_video")
             video_id = info.get("id", str(int(time.time())))
             safe_title = re.sub(r"[^A-Za-z0-9._-]+", "_", title).strip("_")[:80] or "youtube_video"

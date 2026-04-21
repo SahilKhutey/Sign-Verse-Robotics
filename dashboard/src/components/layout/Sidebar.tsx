@@ -12,6 +12,7 @@ export default function Sidebar() {
     { href: '/', label: 'Dashboard', icon: Activity },
     { href: '/capture', label: 'Capture Studio', icon: MonitorPlay },
     { href: '/dataset', label: 'Dataset Manager', icon: Database },
+    { href: '/jobs', label: 'Job History', icon: History },
     { href: '/timeline', label: 'Motion Timeline', icon: Sliders },
     { href: '/pose', label: 'Pose & Gesture Lab', icon: Focus },
     { href: '/retargeting', label: 'Robot Retargeting', icon: Cpu },

@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590",
+  "session_path": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590",
+  "inspection": {
+    "name": "07_dance_How_to_Remember_Choreography_-_Memorize_Dance_Routines_EASILY_Dance_Tips_STEEZY._Bw3T5knpcKo.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\07_dance_How_to_Remember_Choreography_-_Memorize_Dance_Routines_EASILY_Dance_Tips_STEEZY._Bw3T5knpcKo.mp4",
+    "fps": 24.0,
+    "frame_count": 2542,
+    "duration_s": 105.91666666666667,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 38.37756395339966,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\07_dance_How_to_Remember_Choreography_-_Memorize_Dance_Routines_EASILY_Dance_Tips_STEEZY._Bw3T5knpcKo.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590",
+    "source_fps": 24.0,
+    "effective_fps": 2.0,
+    "processed_frames": 212,
+    "tracked_frames": 207,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_07_07_dance_how_to_remember_choreography_memorize_d_ce914edd_1776765590\\blender_export.bvh"
+    }
+  }
+}

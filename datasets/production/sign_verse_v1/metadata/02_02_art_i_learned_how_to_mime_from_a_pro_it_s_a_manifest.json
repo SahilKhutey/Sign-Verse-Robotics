@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804",
+  "session_path": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804",
+  "inspection": {
+    "name": "02_art_I_learned_how_to_mime_from_a_pro_it_s_a_lot_more_complicated_than_you_think_R41EBiIxdU8.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\02_art_I_learned_how_to_mime_from_a_pro_it_s_a_lot_more_complicated_than_you_think_R41EBiIxdU8.mp4",
+    "fps": 23.976023976023978,
+    "frame_count": 3646,
+    "duration_s": 152.06858333333332,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": true
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 57.652825117111206,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\02_art_I_learned_how_to_mime_from_a_pro_it_s_a_lot_more_complicated_than_you_think_R41EBiIxdU8.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804",
+    "source_fps": 23.976023976023978,
+    "effective_fps": 1.998001998001998,
+    "processed_frames": 304,
+    "tracked_frames": 300,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_02_02_art_i_learned_how_to_mime_from_a_pro_it_s_a_l_7f8bdc3a_1776764804\\blender_export.bvh"
+    }
+  }
+}

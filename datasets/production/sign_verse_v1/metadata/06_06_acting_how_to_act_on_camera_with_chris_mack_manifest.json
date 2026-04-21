@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472",
+  "session_path": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472",
+  "inspection": {
+    "name": "06_acting_How_To_Act_On_Camera_with_Chris_Mack_w-KQemXlVB8.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\06_acting_How_To_Act_On_Camera_with_Chris_Mack_w-KQemXlVB8.mp4",
+    "fps": 25.0,
+    "frame_count": 8429,
+    "duration_s": 337.16,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 117.58794975280762,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\06_acting_How_To_Act_On_Camera_with_Chris_Mack_w-KQemXlVB8.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472",
+    "source_fps": 25.0,
+    "effective_fps": 2.0833333333333335,
+    "processed_frames": 703,
+    "tracked_frames": 500,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_06_06_acting_how_to_act_on_camera_with_chris_mack_w_c47707cb_1776765472\\blender_export.bvh"
+    }
+  }
+}

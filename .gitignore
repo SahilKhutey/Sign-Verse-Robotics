@@ -13,6 +13,7 @@ env/
 
 # Datasets (Large Binaries - IGNORED)
 datasets/
+!datasets/production/
 storage/datasets/
 storage/checkpoints/
 

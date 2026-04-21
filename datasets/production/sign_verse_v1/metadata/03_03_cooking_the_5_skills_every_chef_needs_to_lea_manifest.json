@@ -1,0 +1,40 @@
+{
+  "session_name": "svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862",
+  "session_path": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862",
+  "inspection": {
+    "name": "03_cooking_The_5_Skills_Every_Chef_Needs_to_Learn_8A_i-PFRieQ.mp4",
+    "path": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\03_cooking_The_5_Skills_Every_Chef_Needs_to_Learn_8A_i-PFRieQ.mp4",
+    "fps": 25.0,
+    "frame_count": 14775,
+    "duration_s": 591.0,
+    "width": 640,
+    "height": 360,
+    "source_kind": "local_file",
+    "likely_youtube_video": false
+  },
+  "workflow": {
+    "sample_fps": 2.0,
+    "chunk_frames": 100,
+    "elapsed_s": 206.73881649971008,
+    "verification_ok": true
+  },
+  "summary": {
+    "source_video": "C:\\Users\\User\\Documents\\Sign-Verse-Robotics\\datasets\\auto_jobs\\autoyt_20260420_161547_09b662\\downloads\\03_cooking_The_5_Skills_Every_Chef_Needs_to_Learn_8A_i-PFRieQ.mp4",
+    "session_path": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862",
+    "source_fps": 25.0,
+    "effective_fps": 2.0833333333333335,
+    "processed_frames": 1232,
+    "tracked_frames": 1061,
+    "chunk_frames": 100,
+    "artifacts": {
+      "annotated_preview": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\annotated_preview.mp4",
+      "training_set_npy": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\training_set.npy",
+      "training_set_csv": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\training_set.csv",
+      "simulation_2d": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\simulation_2d.json",
+      "simulation_3d": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\simulation_3d.json",
+      "retargeted_motion": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\retargeted_motion.json",
+      "gltf_animation": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\gltf_animation.json",
+      "blender_export_bvh": "datasets\\svbatch_20260421_151306_03_03_cooking_the_5_skills_every_chef_needs_to_lear_43afbd3d_1776764862\\blender_export.bvh"
+    }
+  }
+}
