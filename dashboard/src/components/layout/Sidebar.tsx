@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Terminal, Zap, Database, Activity, MonitorPlay, Focus, Cpu, Glasses, Sliders } from 'lucide-react';
+import { Terminal, Zap, Database, Activity, MonitorPlay, Focus, Cpu, Glasses, Sliders, History } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 

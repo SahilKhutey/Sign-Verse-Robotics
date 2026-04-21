@@ -2,7 +2,11 @@ import numpy as np
 import ctypes
 import os
 import platform
+import logging
 from typing import Tuple
+
+# Initialize structured logging
+logger = logging.getLogger("SignVerse.Robotics.WBMPC")
 
 class WBMPCSolver:
     """
@@ -11,6 +15,12 @@ class WBMPCSolver:
     """
     def __init__(self, lib_name: str = "optimizer"):
         self.lib = None
+        
+        # Check for explicit force-numpy flag
+        if os.environ.get("SV_FORCE_NUMPY_SOLVER") == "1":
+            logger.info("Force-NumPy mode enabled. Skipping C++ solver discovery.")
+            return
+
         system = platform.system()
         ext = ".dll" if system == "Windows" else ".so"
         
@@ -27,10 +37,11 @@ class WBMPCSolver:
                     ctypes.c_int,
                     ctypes.POINTER(ctypes.c_double)
                 ]
+                logger.info(f"Successfully loaded C++ WBMPC solver: {lib_path}")
             except Exception as e:
-                print(f"[WBMPC] Error loading C++ solver: {e}")
+                logger.error(f"Error loading C++ solver: {e}")
         else:
-            print(f"[WBMPC] Warning: '{lib_path}' not found. Using NumPy fallback.")
+            logger.info(f"WBMPC C++ solver not found at {lib_path}. Defaulting to NumPy PD fallback.")
 
     def solve(self, state: np.ndarray, ref: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
         """

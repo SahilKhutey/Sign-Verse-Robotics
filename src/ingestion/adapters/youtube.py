@@ -150,6 +150,8 @@ class YouTubeAdapter:
             'quiet': True,
             'extract_flat': True,
             'force_generic_extractor': False,
+            'ignoreerrors': True,
+            'no_warnings': True,
         }
         
         # Use ytsearch prefix if it's not a direct URL

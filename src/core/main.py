@@ -1,5 +1,6 @@
 import asyncio
 import json
+import time
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import RedirectResponse, StreamingResponse, FileResponse
@@ -126,13 +127,45 @@ def _build_batch_summary(batch_id: str):
         },
         "videos": videos,
     }
+async def cleanup_temp_files(threshold_hours: int = 24):
+    """Prunes files in temp_uploads older than the threshold."""
+    temp_dir = "temp_uploads"
+    if not os.path.exists(temp_dir):
+        return
+    
+    now = time.time()
+    threshold_sec = threshold_hours * 3600
+    
+    count = 0
+    for filename in os.listdir(temp_dir):
+        file_path = os.path.join(temp_dir, filename)
+        if os.path.isfile(file_path):
+            if (now - os.path.getmtime(file_path)) > threshold_sec:
+                try:
+                    os.remove(file_path)
+                    count += 1
+                except Exception as e:
+                    print(f"[Cleanup Error] {e}")
+    if count > 0:
+        print(f"[Resource Management] Pruned {count} temporary files older than {threshold_hours}h.")
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Start the async processing loop in the background
     task = asyncio.create_task(orchestrator.process_loop())
+    
+    # Start the periodic cleanup task
+    async def cleanup_loop():
+        while True:
+            await cleanup_temp_files(24)
+            await asyncio.sleep(3600) # Check every hour
+    
+    cleanup_task = asyncio.create_task(cleanup_loop())
+    
     yield
-    # Cleanup logic if necessary
+    # Cleanup logic
     orchestrator.is_running = False
+    cleanup_task.cancel()
     await task
 
 orchestrator = Orchestrator()
